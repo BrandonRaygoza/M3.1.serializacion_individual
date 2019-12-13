@@ -1,0 +1,42 @@
+------------------------------------------------------------------------
+22.11.2019
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ya esta la interfaz y lo que se requiere para inicializar una nueva
+estan creados dos escenarios , el de menu y el de juego , ahi es donde todo se realizara
+ya esta hecho el disño de los botones solo faltara cambiar el tipo de leta o color
+///////////////////////////////////////////////////////////////////////////////
+----------------------------------------------------------------------------------
+27/11/2019
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+los botones tinen sonido
+	cuando los presionas o pasas el mouse por arriba de ellos
+ya esta hecha la ventana para recibir el nobre del usuario cuando termine o pierda en el juego 
+
+lo que le falta a la ventana es 
+  -la vinculacion con su puntaje 
+  -guardarlo de manera eficiente 
+
+el stage de score ya esta inicializado 
+	-actualizar con cada juego nuevo 
+	-ya muestra en orden
+	-muestra todos la lista 
+	-solo falta pulirle lo estetico
+	
+el sonido de fondo funciona , no que me gustaria pero por el momento funciona 
+
+///////////////////////////////////////////////////////////////////////////////////
+----------------------------------------------------------------------------------
+28/11/2019 Brandon
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Lo hice mas atractivo visualmente (nomas le cambie el fondo, cambie las coordenadas y ya)
+Como no entendi mucho la clase "Memoria" agregue dos clases:
+
+-> WriteFile
+-> ReadFile
+
+Ambas realizan su proposito efectivamente, el unico detalle es que cuando guardo un nombre desde el juego,
+este sobre escribe el anterior, es decir, cuando escribo un nombre y se cierra el flujo, el cursor se regresa 
+al inicio y borra el nombre anterior.
+
+Habria que buscar como hacer que el cursos se quede en la ultima  posicion que se escribio.
